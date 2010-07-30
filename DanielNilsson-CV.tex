@@ -1,0 +1,129 @@
+%% start of file `template_en.tex'.
+%% Copyright 2006-1008 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+\documentclass[11pt,a4paper]{moderncv}
+
+\usepackage{skills}
+
+% moderncv themes
+%\moderncvtheme[blue]{casual}      % optional argument are 'blue' (default),
+                                   % 'orange', 'red', 'green', 'grey' and 'roman'
+                                   % (for roman font)
+\moderncvtheme[blue]{classic}
+
+% character encoding
+\usepackage[utf8]{inputenc}
+
+% adjust the page margins
+\usepackage[scale=0.8]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}	     % width of the column with the dates
+
+
+%\AtBeginDocument{\setlength{\maketitlenamewidth}{6cm}}  % only for the classic
+                                                         % theme, if you want to
+                                                      % change the width of
+                                                         % your name placeholder
+\AtBeginDocument{\recomputelengths}
+
+% personal data
+\firstname{Daniel}
+\familyname{Nilsson}
+%\title{\small{Software Engineering student}}               % optional
+\address{Hällskriftsgatan 8d}{417 26 Göteborg}    % optional
+\mobile{0735 25 66 98}                           % optional
+\email{deinils@gmail.com}                     % optional
+\extrainfo{}  % optional
+\photo[64pt]{picture}                            % optional
+
+%\nopagenumbers{}
+
+
+%-------------------------------------------------------------------------------
+%            content
+%-------------------------------------------------------------------------------
+\begin{document}
+\maketitle
+
+\section{Utbildning}
+\cventry{2007--nuvarande}{Software Engineering and Management}
+{Göteborgs Universitet, IT University of Göteborg}{}{}{3-årigt
+  kandidatprogram. Examen i maj 2010.}
+
+\cventry{2001--2002}{Räddningsman/amröjare}
+{Civilplikt}{}{}{}
+
+\cventry{1999--2001}{Samhälle/ekonomi}
+{Polhemsgymnasiet}{}{}{}
+
+\section{Yrkeserfarenhet}
+\cventry{2010--nuvarande}{Butiksbiträde} {Coop
+  Bäckebol}{Göteborg}{}{Arbetar extra i kassa och som säljare vid
+  sidan av studierna.}
+
+\cventry{2009--2010}{Handledare} {Göteborgs
+  Universitet}{Göteborg}{}{Handleder och stöttar elever i
+  kurserna Software Architectures och Project: Software Architecture
+  for Distributed Systems.  Arbetet innebär att pedagogiskt kunna
+  förklara teori och begrepp inom ämnet samt hjälpa med praktiska
+  problem i skapandet av en mjukvaruarkitektur. Som handledare rättar
+  jag även inlämningsuppgifter och lämnar konstruktiv feedback till
+  eleverna.}
+
+\cventry{2006--2007}{V-Laget}
+{Volvo Lastvagnar AB}{Göteborg}{}{Arbetade inom en mindre grupp som ansvarade för monteringen av lastbilar som avvek från normal
+monterings process. Inom gruppen planerade vi det dagliga arbetet själva och fick ta ett större
+ansvar för kvalitét och leverans.}
+
+\cventry{2004--2006}{Gruppombud \& kontrollant} {Volvo Lastvagnar
+  AB}{Göteborg}{}{Som gruppombud ansvarade jag för det dagliga arbetet
+  på avdelningen som bland annat innebar delegering av
+  arbetsuppgifter, utbildning av personal och kommunikation mellan
+  avdelningar. Som gruppombud krävdes det att jag var stresstålig och
+  kunde hantera situationer som inträffade både med produktion och
+  personal. Som kontrollant var jag ytterst ansvarig för kvailtéten
+  och säkerheten på produkten vi levererade vilket kräver nogrannhet
+  och tålamod och färdighet inom kommunikation då felåterföring är en
+  stor del av kvailitétsförbättrings processen.}
+
+\cventry{2002--2004}{Montör} {Volvo Lastvagnar
+  AB}{Göteborg}{}{Montering av lastbil.}
+
+\section{Tekninsk kunskap}
+\cvitem{Språk}   {C, Erlang, Java, Python, \LaTeX}
+\cvitem{Applikationer}    {Emacs, Eclipse, SVN, Git, Microsoft Office, MySql}
+\cvitem{System}     {GNU/Linux, Windows}
+\cvitem{API's}       {JSP}
+\cvitem{Koncept}    {OO, UML, Quality Assurance, Agile development,
+  Change Management}
+
+\section{Språk}
+\cvlanguage{Svenska}    {Modersmål}{}
+\cvlanguage{Engelska}    {Flytande i tal och skrift}{}
+
+
+\renewcommand{\listitemsymbol}{\textbullet} % change the symbol for lists
+
+\section{Övriga uppdrag}
+\cvlistitem{\textbf{Aktiv medlem i förening GÖSTA 2009}\\
+GÖSTA är en förening startad av eleverna på IT-Universitetet och annordnar varje år sveriges största IT-Arbetsmarknads dag.
+Jag arbetade med att sälja platser till mässan mot företag och vara kontaktperson vid mässtillfället.}
+
+\section{Personlig referens}
+\cvitem{Namn}   {Rodrigo Fierro}
+\cvitem{Yrke}   {Produktionsledare Volvo Lastvagnar}
+\cvitem{Telefon}   {031 660 000 (växel)}
+%\cvitem{E-post}   {henrik.sandklef@ituniv.se}
+
+\section{Övrig information}
+\cvlistitem{Innehar B-Körkort.} \\
+\cvlistitem{Ytterligare referenser och orginalbetyg lämnas mot begäran.} \\
+
+\end{document}
+
+
+%% end of file `template_en.tex'.
